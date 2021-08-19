@@ -20,7 +20,7 @@
 
 
     .trasho {
-        width: 100%;
+        width: 0;
         height: 700%;
         background: $mainBackground;
         position: absolute;
@@ -32,7 +32,7 @@
 
 
     .footero {
-        width: 100%;
+        width: 0;
         height: 130%;
         background: $footerColor;
         position: absolute;
@@ -45,7 +45,7 @@
     .bodyWrapper {
         background-image: url('../images/bg-curvy-mobile.svg');
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 0;
         background-position-y: 3%;
     }
 
