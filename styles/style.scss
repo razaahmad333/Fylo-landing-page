@@ -419,7 +419,125 @@ body {
 
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:1030px){
+    body{
+        background: yellow;
+    }
+    .trasho {
+        width: 100%;
+        height: 153%;
+        background: $mainBackground;
+        position: absolute;
+        opacity: 1;
+        top: 53%;
+        z-index: -1;
+    }
+
+
+
+    .footero {
+        width: 100%;
+        height: 35%;
+        background: $footerColor;
+        position: absolute;
+        opacity: 1;
+        top: 205%;
+        z-index: -1;
+    }
+
+
+    .bodyWrapper {
+        background-image: url('../images/bg-curvy-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: 12%;
+    }
+
+}
+
+
+@media only screen and (max-width:480px){
+    @import './mobileStyle';
+
+    body{
+        background: red;
+    }    
+    .trasho {
+        width: 100%;
+        height: 550%;
+        background: $mainBackground;
+        position: absolute;
+        opacity: 1;
+        top: 41%;
+        z-index: -1;
+    }
+
+
+
+    .footero {
+        width: 100%;
+        height: 110%;
+        background: $footerColor;
+        position: absolute;
+        opacity: 1;
+        top: 525%;
+        z-index: -1;
+    }
+
+
+    .bodyWrapper {
+        background-image: url('../images/bg-curvy-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: 3%;
+    }
+
+}
+
+
+@media only screen and (max-width:413px){
+    @import './mobileStyle';
+
+    body{
+        background: red;
+    }    
+    .trasho {
+        width: 100%;
+        height: 410%;
+        background: $mainBackground;
+        position: absolute;
+        opacity: 1;
+        top: 42%;
+        z-index: -1;
+    }
+
+
+
+    .footero {
+        width: 100%;
+        height: 120%;
+        background: $footerColor;
+        position: absolute;
+        opacity: 1;
+        top: 445%;
+        z-index: -1;
+    }
+
+
+    .bodyWrapper {
+        background-image: url('../images/bg-curvy-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: 3%;
+    }
+
+}
+
+
+@media only screen and (max-width:380px) {
+    body{
+        background-color: green
+    }
     @import './mobileStyle';
 }
 
